@@ -1,0 +1,1 @@
+#summary How to activate a parser function in Wiki2LaTeX

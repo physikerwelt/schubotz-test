@@ -8,7 +8,7 @@
   ** $w2l_tags       to $w2lTags;
   ** $w2l_pFunctions to $w2lParserFunctions;
   * Removed reference-support from w2lDefaultConfig.php. Reactivate it by adding include('contrib/ref.php'); to your own w2lConfig.php
-  * Changed export options from radio buttons to clickable buttons. Removed $w2lConfig['default_action'] which is useless now.
+  * Changed export options from radio buttons to clickable buttons. Removed `$w2lConfig['default_action']` which is useless now.
   * Fixed an imageparsing bug
   * Fixed a bug, which accidentally triggered table parsing where no table is.
   * Added indented `<math>` support: "`:<math>...`" now becomes "`\begin{equation}...`" (thx to cjiahao)

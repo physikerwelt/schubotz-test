@@ -27,9 +27,15 @@
 
 
 = v.0.9.2 =
+  * Most Tables can now be rendered without using the latexfmt-attribute. (Thanks to Hendrik)
+  * Fixed image rendering.
+  * Fixed .tex-file download. (Thanks to felixjmoeller)
 
 = v.0.9.1 =
+  * Fixed one error message.
+  * Fixed one php-warning.
 
+[edit] 
 = v.0.9 =
 
 = v.0.8 =

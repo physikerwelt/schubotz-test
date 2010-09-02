@@ -35,7 +35,6 @@
   * Fixed one error message.
   * Fixed one php-warning.
 
-[edit] 
 = v.0.9 =
 
 = v.0.8 =

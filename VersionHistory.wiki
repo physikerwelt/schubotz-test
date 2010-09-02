@@ -1,6 +1,25 @@
 #summary Version history of Wiki2LaTeX
 
-= v.0.10 (not yet released) =
+=v.0.11 =
+
+  * Removed ((WikiContent)) in LaTeX-Templates. Replace it with: ((W2L_CONTENT))
+  * Removed support for old config-arrays $w2l_config and others. This only affects very old installations. Change them in your config files as such:
+  ** $w2l_config     to $w2lConfig;
+  ** $w2l_tags       to $w2lTags;
+  ** $w2l_pFunctions to $w2lParserFunctions;
+  * Removed reference-support from w2lDefaultConfig.php. Reactivate it by adding include('contrib/ref.php'); to your own w2lConfig.php
+  * Changed export options from radio buttons to clickable buttons. Removed $w2lConfig['default_action'] which is useless now.
+  * Fixed an imageparsing bug
+  * Fixed a bug, which accidentally triggered table parsing where no table is.
+  * Added indented <math> support: ":<math>..." now becomes "\begin{equation}..." (thx to cjiahao)
+  * Added German Translation
+  * Added Polish translation (thx to: Szymon Tarnowski)
+  * Added $frame to tag-definitions (which is submitted by MW 1.16). Has no meaning at this point in W2L. This change (should not but) might break any tag extension. In case of errors please check, if the function definition matches the one given in the docs.
+  * W2L now parses plain links in an article.
+  * Added an empty template. You can use this if the page contains a complete LaTeX-document
+  * LaTeX compile now repeats as often as you specify in $w2lConfig['ltx_repeat']. Previously it missed the last run.
+
+= v.0.10 RC1 and RC2 =
 
 = v.0.9.2 =
 

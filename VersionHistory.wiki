@@ -21,6 +21,10 @@
   * W2L is now compatible with the new (ans shiny) Vector theme.
 
 = v.0.10 RC1 and RC2 =
+  * Several bugs have been fixed
+  * Removed some custom Template-Variables (like ((Title)) ). Please use the corresponding Mediawiki-variables in your templates, in this case ((PAGENAME)).
+  * Wiki2LaTeX now uses a different Message-system. This is tested only on Mediawiki 1.16.
+
 
 = v.0.9.2 =
 
